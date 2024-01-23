@@ -48,7 +48,8 @@ d3.json(url).then(function(data) {
     mode: "markers",
     marker: {
       color:topTen.otu_ids,
-      size: topTen.sample_values
+      size: topTen.sample_values,
+      colorscale: "Earth"
     }
   };
   

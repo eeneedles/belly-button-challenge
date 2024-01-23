@@ -1,1 +1,5 @@
 # belly-button-challenge
+
+This is a project involving building an interactive dashboard with data which catalogs microbes that colonize human navels.  The repository was also deployed to GitHub Pages.  Within the repository is an html file named index.html, a json file with sample data named samples.json, and a folder named static containing the javascript for the creation of a bar chart, bubble chart, drop-down menu, and demographic table.
+
+The D3 library was used to read in the samples.json file from the URL https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json.  A bar chart with hovertext was created to display the top 10 operational taxonomic units present in more than 70% of people (OTU's).  Then a bubble chart was created with different marker sizes and colors, displaying each sample and its frequency.  Finally the sample metadata was used to create a table with demographic information for the current sample from the drop-down menu.
